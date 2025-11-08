@@ -10,11 +10,13 @@ class Soundctl < Formula
   depends_on :macos
 
   def install
+    system "bash", "scripts/generate-version.sh"
     system "swift", "build", "--disable-sandbox", "-c", "release"
     bin.install ".build/release/soundctl"
   end
 
   test do
     assert_match "soundctl", shell_output("#{bin}/soundctl --help")
+    assert_match version.to_s, shell_output("#{bin}/soundctl --version")
   end
 end
