@@ -1,2 +1,10 @@
-# homebrew-soundctl
-Homebrew tap for soundctl - macOS audio device control utility
+# Homebrew Tap for soundctl
+
+## Installation
+
+```sh
+brew tap graysoncash/soundctl
+brew install soundctl
+```
+
+See the [main repository](https://github.com/graysoncash/soundctl) for documentation.
