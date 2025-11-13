@@ -1,8 +1,8 @@
 class Soundctl < Formula
   desc "Command-line utility to control sound devices on macOS"
   homepage "https://github.com/graysoncash/soundctl"
-  url "https://github.com/graysoncash/soundctl/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "9a329e260f3943de1ec34d95e6c7ece0f69d5470d0a003848f7543c4e43ab220"
+  url "https://github.com/graysoncash/soundctl/archive/refs/tags/v0.4.5.tar.gz"
+  sha256 "931bebaa612815bf36306666da8a1933e5ab5caa3457d47cf2c930da6cfe20ea"
   license "MIT"
   head "https://github.com/graysoncash/soundctl.git", branch: "main"
 
